@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.renci.osgi</groupId>
     <artifactId>bundles</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
   </parent>
   <name>RENCI :: OSGi :: Bundle :: SAMTools 1.55</name>
   <groupId>org.renci.osgi.bundles</groupId>
   <artifactId>samtools-1.55-bundle</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
