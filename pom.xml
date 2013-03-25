@@ -233,5 +233,6 @@
     <module>snappy-1.0.3-rc3-bundle</module>
     <module>ubu-1.2-bundle</module>
     <module>xz-1.0-bundle</module>
+    <module>rrd4j-2.1.1-bundle</module>
   </modules>
 </project>
