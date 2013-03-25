@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.renci.osgi</groupId>
     <artifactId>bundles</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
   </parent>
   <name>RENCI :: OSGi :: Bundle :: jbzip2 0.9</name>
   <groupId>org.renci.osgi.bundles</groupId>
   <artifactId>jbzip2-0.9-bundle</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
