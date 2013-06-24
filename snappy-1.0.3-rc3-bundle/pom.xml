@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.renci.osgi</groupId>
     <artifactId>bundles</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
   </parent>
   <name>RENCI :: OSGi :: Bundle :: Snappy 1.0.3-rc3</name>
   <groupId>org.renci.osgi.bundles</groupId>
   <artifactId>snappy-1.0.3-rc3-bundle</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
