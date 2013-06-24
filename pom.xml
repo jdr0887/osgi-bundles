@@ -234,5 +234,6 @@
     <module>ubu-1.2-bundle</module>
     <module>xz-1.0-bundle</module>
     <module>rrd4j-2.1.1-bundle</module>
+    <module>jsch-0.1.50-bundle</module>
   </modules>
 </project>
