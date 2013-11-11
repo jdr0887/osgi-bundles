@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.renci.osgi</groupId>
     <artifactId>bundles</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.5</version>
   </parent>
   <name>RENCI :: OSGi :: Bundle :: XZ 1.0</name>
   <groupId>org.renci.osgi.bundles</groupId>
   <artifactId>xz-1.0-bundle</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.5</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
