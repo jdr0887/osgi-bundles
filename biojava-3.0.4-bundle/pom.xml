@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.renci.osgi</groupId>
     <artifactId>bundles</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.6-SNAPSHOT</version>
   </parent>
   <name>RENCI :: OSGi :: Bundle :: BioJava 3.0.4</name>
   <groupId>org.renci.osgi.bundles</groupId>
   <artifactId>biojava-3.0.4-bundle</artifactId>
-  <version>0.0.5</version>
+  <version>0.0.6-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
