@@ -223,6 +223,7 @@
   </build>
   <modules>
     <module>biojava-3.0.4-bundle</module>
+    <module>biojava-3.0.7-bundle</module>
     <module>fastqc-0.10.1-bundle</module>
     <module>jbzip2-0.9-bundle</module>
     <module>jfreechart-1.0.14-bundle</module>
