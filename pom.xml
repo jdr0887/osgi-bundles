@@ -227,7 +227,6 @@
     <module>fastqc-0.10.1-bundle</module>
     <module>jbzip2-0.9-bundle</module>
     <module>jfreechart-1.0.14-bundle</module>
-    <module>jgrapht-0.8.3-bundle</module>
     <module>picard-1.55-bundle</module>
     <module>postgresql-9.1-901.jdbc4-bundle</module>
     <module>postgresql-9.3-1100-jdbc4-bundle</module>
