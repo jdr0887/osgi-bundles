@@ -93,12 +93,12 @@
     <repository>
       <id>renci.repository</id>
       <name>renci.repository</name>
-      <url>https://ci-dev.renci.org/nexus/content/repositories/releases</url>
+      <url>http://archiva.renci.org:8080/repository/internal</url>
     </repository>
     <snapshotRepository>
-      <id>renci.repository</id>
-      <name>renci.repository</name>
-      <url>https://ci-dev.renci.org/nexus/content/repositories/snapshots</url>
+      <id>renci.snapshot.repository</id>
+      <name>renci.snapshot.repository</name>
+      <url>http://archiva.renci.org:8080/repository/snapshots</url>
     </snapshotRepository>
     <site>
       <id>renci.site</id>
@@ -106,10 +106,6 @@
       <url>file:///${user.dir}/target/site-deploy</url>
     </site>
   </distributionManagement>
-  <dependencyManagement>
-    <dependencies>
-    </dependencies>
-  </dependencyManagement>
   <build>
     <plugins>
       <plugin>
