@@ -230,6 +230,7 @@
     <module>jgrapht-0.8.3-bundle</module>
     <module>picard-1.55-bundle</module>
     <module>postgresql-9.1-901.jdbc4-bundle</module>
+    <module>postgresql-9.3-1100-jdbc4-bundle</module>
     <module>samtools-1.55-bundle</module>
     <module>snappy-1.0.3-rc3-bundle</module>
     <module>ubu-1.2-bundle</module>
