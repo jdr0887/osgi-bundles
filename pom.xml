@@ -38,66 +38,6 @@
     <developerConnection>scm:git:ssh://${user.name}@code.renci.org/gitroot/osgi_bundles</developerConnection>
     <connection>scm:git:ssh://developername@code.renci.org/gitroot/osgi_bundles</connection>
   </scm>
-  <pluginRepositories>
-    <pluginRepository>
-      <id>renci.plugin.repository</id>
-      <name>RENCI Plugin Repository</name>
-      <url>http://ci-dev.renci.org/nexus/content/repositories/public</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-    </pluginRepository>
-  </pluginRepositories>
-  <repositories>
-    <repository> 
-      <id>com.springsource.repository.bundles.external</id> 
-      <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle External</name> 
-      <url>http://repository.springsource.com/maven/bundles/external</url> 
-    </repository>
-    <repository>
-      <id>ibiblio.repository</id>
-      <name>ibiblio.repository</name>
-      <url>http://mirrors.ibiblio.org/pub/mirrors/maven2</url>
-      <releases>
-	<enabled>true</enabled>
-      </releases>
-      <snapshots>
-	<enabled>true</enabled>
-	<updatePolicy>never</updatePolicy>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>biojava-maven-repo</id>
-      <name>BioJava repository</name>
-      <url>http://www.biojava.org/download/maven</url>			
-      <releases>
-    	<enabled>true</enabled>
-    	<updatePolicy>always</updatePolicy>
-      </releases>
-      <snapshots>
-    	<enabled>true</enabled>
-    	<updatePolicy>never</updatePolicy>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>renci.repository</id>
-      <name>renci.repository</name>
-      <url>http://ci-dev.renci.org/nexus/content/repositories/public</url>
-      <releases>
-    	<enabled>true</enabled>
-    	<updatePolicy>always</updatePolicy>
-      </releases>
-      <snapshots>
-    	<enabled>true</enabled>
-    	<updatePolicy>never</updatePolicy>
-      </snapshots>
-    </repository>
-  </repositories>
   <developers>
     <developer>
       <id>jdr0887</id>
@@ -111,6 +51,44 @@
       </roles>
     </developer>
   </developers>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>renci.plugin.repository</id>
+      <name>RENCI Plugin Repository</name>
+      <url>http://archiva.renci.org:8080/repository/internal</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
+  <repositories>
+    <repository>
+      <id>renci.repository</id>
+      <name>renci.repository</name>
+      <url>http://archiva.renci.org:8080/repository/internal</url>
+      <releases>
+    	<enabled>true</enabled>
+      </releases>
+      <snapshots>
+    	<enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>renci.snapshot.repository</id>
+      <name>renci.repository</name>
+      <url>http://archiva.renci.org:8080/repository/snapshots</url>
+      <releases>
+    	<enabled>false</enabled>
+      </releases>
+      <snapshots>
+    	<enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
   <distributionManagement>
     <repository>
       <id>renci.repository</id>
