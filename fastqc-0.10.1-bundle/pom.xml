@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.renci.osgi</groupId>
     <artifactId>bundles</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7-SNAPSHOT</version>
   </parent>
   <name>RENCI :: OSGi :: Bundle :: FastQC 0.10.1</name>
   <groupId>org.renci.osgi.bundles</groupId>
   <artifactId>fastqc-0.10.1-bundle</artifactId>
-  <version>0.0.6</version>
+  <version>0.0.7-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
