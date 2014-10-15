@@ -11,7 +11,6 @@
   <artifactId>bundles</artifactId>
   <version>0.0.7-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <properties>
   <issueManagement>
     <system>gForge</system>
     <url>https://code.renci.org/gf/project/osgi-bundles/tracker/</url>
