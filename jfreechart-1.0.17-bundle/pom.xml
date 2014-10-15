@@ -37,7 +37,8 @@
 	<artifactId>maven-bundle-plugin</artifactId>
 	<configuration>
 	  <instructions>
-	    <Export-Package>org.jfree*,com.keypoint*</Export-Package>
+	    <Private-Package />
+	    <Export-Package>org.jfree.*,com.keypoint.*</Export-Package>
 	    <Import-Package>*</Import-Package>
 	  </instructions>
 	</configuration>
