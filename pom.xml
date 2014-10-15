@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.renci.osgi</groupId>
   <artifactId>bundles</artifactId>
-  <version>0.0.7-SNAPSHOT</version>
+  <version>0.0.7</version>
   <packaging>pom</packaging>
   <issueManagement>
     <system>gForge</system>
@@ -25,6 +25,7 @@
   <scm>
     <developerConnection>scm:git:ssh://${user.name}@code.renci.org/gitroot/osgi_bundles</developerConnection>
     <connection>scm:git:ssh://developername@code.renci.org/gitroot/osgi_bundles</connection>
+    <tag>bundles-0.0.7</tag>
   </scm>
   <build>
     <plugins>
