@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.renci.osgi</groupId>
     <artifactId>bundles</artifactId>
-    <version>0.0.7</version>
+    <version>0.0.8-SNAPSHOT</version>
   </parent>
   <name>RENCI :: OSGi :: Bundle :: Jsch 0.1.50</name>
   <groupId>org.renci.osgi.bundles</groupId>
   <artifactId>jsch-0.1.50-bundle</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
